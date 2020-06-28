@@ -37,6 +37,7 @@ def setup_desktop():
         'mappath': {'/': '/vnc_lite.html'},
         'new_browser_window': True,
         'launcher_entry': {
-            'title': 'Desktop'
+            'title': 'Desktop',
+            'icon_path': os.path.join(HERE, 'share/icons/desktop.svg')
         }
     }
